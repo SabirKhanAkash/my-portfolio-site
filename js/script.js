@@ -51,7 +51,7 @@ document.addEventListener("click", (e) =>{
 
 
 const textDisplay = document.getElementById('text')
-const phrases = [' Software Developer.', ' Front-End Web Developer.', ' Problem Solver.', ' Gamer.', ' Tech Enthusiast.', ' Learner.']
+const phrases = [' Software Developer.', ' Web Developer.', ' Problem Solver.', ' Gamer.', ' Tech Enthusiast.', ' Learner.']
 let i = 0
 let j = 0 
 let currentPhrase = []
