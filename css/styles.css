@@ -903,7 +903,7 @@ button{
 
 } */
 
-.contact-form .btnN{
+.home-text .btnN{
     line-height: 0.5;
     background-color: var(--white-alpha-25);
     border: 1px solid var(--white-alpha-40);
@@ -924,7 +924,7 @@ button{
     
 }
 
-.contact-form .btnN::before{
+.home-text .btnN::before{
     content: '';
     position: absolute;
     left: 0;
@@ -937,11 +937,11 @@ button{
     border-radius: 30px;
 }
 
-.contact-form .btnN:hover::before{
+.home-text .btnN:hover::before{
     width: 100%;
 }
 
-.contact-form .btnN:hover{
+.home-text .btnN:hover{
     color: var(--white);
 }
 
