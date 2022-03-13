@@ -2,19 +2,18 @@
 
 
 :root{
-    --main-color: #2e36a5;
+    --main-color: #242ca1;
     --blue: #0000ff;
     --blue-dark: #18293c;
     --orange: #ffa500;
     --green-yellow: #cddc39;
-    --cyan-light: #16a4bd;
+    --cyan-light: #0f94b6;
     --bluish-light: #525acc;
     --white: #ffffff;
     --greenish: #48cc1440;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
-    --backdrop-filter-blur: blur(2px);
-    /* -moz-transform: scale(1.5); */
+    --backdrop-filter-blur: blur(3px);
 }
 
 *{
@@ -33,7 +32,7 @@
 
 body{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, var(--bluish-light), var(--cyan-light));
+    background-image: linear-gradient(to bottom right, var(--main-color), var(--cyan-light));
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'rubik',sans-serif;
@@ -889,7 +888,6 @@ button{
 }
 
 .contact-form .input-control::placeholder{
-    top: 0%;
     color: var(--blue-dark);
     opacity: 0.8;
     font-weight: 300;
