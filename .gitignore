@@ -2,3 +2,17 @@
 img/.picasa.ini
 img/.picasaoriginals/.picasa.ini
 img/.picasaoriginals/about-img - Copy.jpg
+node_modules/particles.js/demo/particles.json
+node_modules/particles.js/.npmignore
+node_modules/particles.js/bower.json
+node_modules/particles.js/demo/css/style.css
+node_modules/.package-lock.json
+node_modules/particles.js/demo/index.html
+node_modules/particles.js/demo/js/app.js
+node_modules/particles.js/demo/js/lib/stats.js
+node_modules/particles.js/LICENSE.md
+node_modules/particles.js/package.json
+node_modules/particles.js/particles.js
+node_modules/particles.js/README.md
+package-lock.json
+package.json
