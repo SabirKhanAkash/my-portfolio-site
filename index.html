@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Akash Codes</title>
+  <meta charset="utf-8">
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/particle.css">
+  <link rel="stylesheet" href="css/glassCard.css">
+  <link rel="stylesheet" href="css/backtoTop.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="page-loader">
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<div class="bg-circles">
+  <div class="circle-1"></div>
+  <div class="circle-2"></div>
+  <div class="circle-3"></div>
+  <div class="circle-4"></div>
+  <div class="circle-5"></div>
+  <div class="circle-6"></div>
+</div>
+
+<div id="particles-js"></div>
+
+<div class="overlay"></div>  
+
+<div class="main hidden">
+
+  <header class="header">
+    <div class="container">
+      <div class="row flex-end">
+        <button type="button" class="nav-toggler">
+          <span></span>
+        </button>
+        <nav class="nav">
+          <div class="nav-inner">
+            <ul>
+              <li><a href="#home" class="nav-item link-item">Home</a></li>
+              <li><a href="#about" class="nav-item link-item">About</a></li>
+              <li><a href="#project" class="nav-item link-item">Projects</a></li>
+              <li><a href="#sliders" class="nav-item link-item">Accomplishments</a></li>
+              <li><a href="#contact" class="nav-item link-item">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+
+  <section class="home-section align-item-center" id="home">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="home-text">
+          <p >Greetings! &nbsp; I'm</p>
+          <h1>Sabir Khan Akash</h1>
+          <h2 id="text" style="font-size: 40px; font-weight: 300;"></h2><br><br>
+          <!-- <a href="#about" class="btn link-item">ABOUT ME</a> -->
+          <a href="https://drive.google.com/file/d/13MUdh0qtmtPG5Iv_fRJrqkjHOqOf78_J/view?usp=sharing" target="_BLANK" class="btn">MY RESUME</a>
+        </div>
+        <div class="home-img">
+          <div class="img-box">
+            <img src="img/profile-img.png" alt="Profile Image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section sec-padding" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>about me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="about-img">
+          <div class="img-box">
+            <img src="img/about-img.png" alt="profile-image">
+          </div>
+        </div>
+        <div class="about-text">
+          <p>I like to learn new things everyday. Fascinated about Web Programming, Software Development, Python, ML and playing video games. 
+             I'm also a Tech-Enthusiast who likes to know about new technologies. Solved more than 100+ problems in different online judges such as Codeforces, LightOJ, HackerRank and UVa etc. Researched and worked on some 2D game projects using engine like Unity Engine.
+          </p><br><br>
+          <h3><b>Skills</b></h3>
+          <div class="skills">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">Python</div>
+            <div class="skill-item">NodeJS</div>
+            <div class="skill-item">C</div>
+            <div class="skill-item">C++</div>
+            <div class="skill-item">Java</div>
+            <div class="skill-item">Bootstrap</div>
+            <div class="skill-item">Git</div>
+            <div class="skill-item">MySQL</div>
+            <div class="skill-item">OpenCV</div>
+            <div class="skill-item">Django</div>
+            <div class="skill-item">TensorFlow</div>
+            <div class="skill-item">Adobe Premiere Pro</div>
+            <div class="skill-item">LaTeX</div>
+            <div class="skill-item">Project Management</div>
+          </div><br><br>
+
+          <div class="about-tabs">
+            <button type="button" class="tab-item active" data-target="#education">Education</button>
+          </div>
+
+          <div class="tab-content" id="education">
+            <div class="timeline">
+              <div class="timeline-item">
+                <span class="institute">Rajshahi University of Engineering & Technology</span>
+                <h4>BSc. in Computer Science & Engineering </p>
+                <p>Jan 2017 - Present</p>
+              </div>
+
+              <div class="timeline-item">
+                <span class="institute">Notre Dame College</span>
+                <h4>HSC with GPA 5.00 under Dhaka Board</p>
+                <p>July 2014 - July 2016</p>
+              </div>
+
+              <div class="timeline-item">
+                <span class="institute">Badda Alatunnesa Higher Secondary School</span>
+                <h4>SSC with GPA 5.00 under Dhaka Board</p>
+                <p>Jan 2004 - Dec 2014</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="project-section sec-padding" id="project">
+    <div class="container">
+      <div class="row">
+        <div class="section-title align-item-center">
+          <h2>Project Showcase</h2>
+        </div>
+      </div>
+      <div class="containerr">
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project1.jpg" alt="Project 1 Thumbnail">
+            <h3>Easy Photo Editor</h3>
+            <p>Simple photo editor, a desktop application for windows operating system. that can manipulate any image performing operations like cropping, rotating, filtering, adjustments, adding text with 
+              different fonts. Images can be shared on socials like facebook, twitter, instagram etc.</p>
+            <a href="https://github.com/SabirKhanAkash/EasyPhotoEditor" target="_BLANK">Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/EasyPhotoEditor/blob/master/EasyPhotoEditor_v1.1.exe?raw=true" target="_BLANK">Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project2.jpg" alt="Project 1 Thumbnail">
+            <h3>RUET Online Books-Notes Library Site</h3>
+            <p>A website for reference books of RUET's different academic years and used Database to manage sign up, sign in, user book requests and HTML5, CSS, JavaScript, PHP and XAMPP local server etc.</p>
+            <a href="https://github.com/SabirKhanAkash/RUET-Online-Books-Handnotes-Store" target="_BLANK">Git Repo</a> &nbsp; 
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project3.jpg" alt="Project 1 Thumbnail">
+            <h3>Discrete Math Android Learning App</h3>
+            <p>A learning app about Discrete Mathematics which works as a guide and lectures and computes some basic discrete mathematics sessional computations.</p>
+            <a href="https://github.com/SabirKhanAkash/Discrete-Math-Android-App" target="_BLANK" >Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/Discrete-Math-Android-App/blob/master/Discrete%20Math.apk?raw=true" target="_BLANK" >Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project4.jpg" alt="Project 1 Thumbnail">
+            <h3>SPACE_RAID: 2D Space Shooter Game</h3>
+            <p>A space themed 2D arcade shooting game using Unity engine. This was an assignment project for the recruitment of my university's game development team.</p>
+            <a href="https://github.com/SabirKhanAkash/Basic-Shooter-Game" target="_BLANK" >Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/Basic-Shooter-Game/blob/main/GameKarkhanaRecruitProject/SpaceRaid.apk?raw=true" target="_BLANK" >Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project5.jpg" alt="Project 1 Thumbnail">
+            <h3>Terminal Chatbot</h3>
+            <p>A simple initial project for learning PyTorch, Python's Natural Language Toolkit Library. Can be initialized using windows terminal(CMD). It can recieve simple greetings or chats and responds back, sometimes make jokes that can only entertain robots xD</p>
+            <a href="https://github.com/SabirKhanAkash/Chat-Bot-Using-PyTorch" target="_BLANK" >Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/Chat-Bot-Using-PyTorch/archive/refs/heads/main.zip" target="_BLANK" >Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project6.jpg" alt="Project 1 Thumbnail">
+            <h3>Weather Web App</h3>
+            <p>Just a simple weather web app using Node.js and OpenWeatherMap's API. Basically returns the weather of particular area given by the user.</p>
+            <a href="https://github.com/SabirKhanAkash/WeatherApp-with-Node.js" target="_BLANK" >Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/WeatherApp-with-Node.js/archive/refs/heads/master.zip" target="_BLANK">Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project7.jpg" alt="Project 1 Thumbnail">
+            <h3>URL Shortener</h3>
+            <p>A URL(Uniform Resource Locator) shortener using JavaScript, Node.js, MongoDB and ExpressJS. Takes a long URL from user and print a shorter version.</p>
+            <a href="https://github.com/SabirKhanAkash/URL-Shortener" target="_BLANK">Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/URL-Shortener/archive/refs/heads/master.zip" target="_BLANK">Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project8.jpg" alt="Project 1 Thumbnail">
+            <h3>Analog Web Clock</h3>
+            <p>Was looking at my wall clock and decided to develop this analog web clock using HTML, CSS and JavaScript. This was a practice project for learning more about practical implementation of JavaScript.</p>
+            <a href="https://github.com/SabirKhanAkash/Analog-Web-Clock" target="_BLANK" >Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/Analog-Web-Clock/archive/refs/heads/master.zip" target="_BLANK">Download</a>  
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="content">
+            <img src="img/project/project9.jpg" alt="Project 1 Thumbnail">
+            <h3>Text to QR Code</h3>
+            <p>Just a simple Text to QR Code Converter using Python and its PySimpleGUI library.It's a web app.</p>
+            <a href="https://github.com/SabirKhanAkash/Text-to-QR-Code" target="_BLANK">Git Repo</a> &nbsp;
+            <a href="https://github.com/SabirKhanAkash/Text-to-QR-Code/archive/refs/heads/master.zip" target="_BLANK">Download</a>  
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="slider-section sec-padding" id="sliders">
+    <div class="container">
+      <div class="row" id="slider" style="overflow: hidden;">
+        <div class="section-title">
+          <h2>Accomplishments</h2>
+        </div>
+
+        <style>
+          #slider{
+            /* margin-bottom: 25px; */
+            overflow: hidden;
+          }
+          #slider figure{
+              position: relative;
+              width: 1000%;
+              margin: 0;
+              left: 0;
+              animation: 7s slider infinite;
+              margin-bottom: 25px;
+          }
+
+          #slider figure img{
+              width: 10%;
+              float: left;
+          }
+
+          @keyframes slider {
+              0%{
+                  left: 0;
+              }
+              20%{
+                  left: 0;
+              }
+              25%{
+                  left: -100%;
+              }
+              45%{
+                  left: -100%;
+              }
+              50%{
+                  left: -200%;
+              }
+              70%{
+                  left: -200%;
+              }
+              75%{
+                  left: -300%;
+              }
+              95%{
+                  left: -300%;
+              }
+              100%{
+                  left: -400%;
+              }
+          }
+        </style>
+        <div id="slider">
+          <center><h3 style="font-size: 24px;">Coursera Certificates</h3></center><br>
+          <figure>
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/7XDFTPZDQU3U" target="_blank"><img src="img/certification/11.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/R737VPBYYJB6" target="_blank"><img src="img/certification/2.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/9BRGGFV5R753" target="_blank"><img src="img/certification/3.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/9WQX2WD7JSU7" target="_blank"><img src="img/certification/4.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/6MLNQXVYTAJ8" target="_blank"><img src="img/certification/5.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/B4GK2TAPCWMD" target="_blank"><img src="img/certification/8.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/HJFAB45NF6W6" target="_blank"><img src="img/certification/9.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/HF49XFXAZLPE" target="_blank"><img src="img/certification/10.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/certificate/V4HPL65TRTF3" target="_blank"><img src="img/certification/1.png"></a>
+
+            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/7XDFTPZDQU3U" target="_blank"><img src="img/certification/11.png"></a>
+            <center><h3 style="font-size: 24px;"> -</h3></center><br>
+          </figure>
+          <center><h3 style="font-size: 24px;">Badges</h3></center>
+        </div>
+      </div>
+      <div class="badge">
+      <center><a  href="https://www.credly.com/badges/03047b80-a16a-4940-a9ac-b57e77dfed88" target="_blank" ><img src="img/certification/12.png" style="size: 75%;"></a>
+        <a href="https://www.credly.com/badges/4d769cbb-45dc-4101-8e9f-3f1e25d2de9e" target="_blank"><img style="size: 75%; padding-top: 4%;" src="img/certification/13.png"></a></center>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact-section sec-padding" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Contact me</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="contact-form">
+          <form>
+            <div class="row">
+              <div class="input-group">
+                <br><br>
+                <input type="text" placeholder="Name" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Email Address" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <input type="text" placeholder="Subject" class="input-control" required>
+              </div>
+              <div class="input-group">
+                <textarea placeholder="Message" class="input-control" required></textarea>
+              </div>
+              <div class="submit-btn">
+                <button type="submit" class="btn">Send message</button>
+              </div>
+            </div>
+          </form>
+        </div>
+          <div class="contact-info">
+            <br><br>
+            <div class="contact-info-item">
+              <h3>Email</h3>
+              <p>4175.akash@gmail.com</p>
+            </div>
+
+            <div class="contact-info-item">
+              <h3>Contact No.</h3>
+              <p>+8801794598178</p>
+            </div>
+
+            <div class="contact-info-item">
+              <h3>Follow me</h3>
+              <div class="social-links">
+                <a href="https://www.facebook.com/fnXBlade" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/sabirkhanakash" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.github.com/SabirKhanAkash" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.twitter.com/SabirKhanAkash_" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/channel/UC2LLysXlNymRZdFb0fcxl4g" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="https://www.instagram.com/_.distortion_" target="_blank"><i class="fa fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+
+</div>
+
+<center>
+  <p style="margin-top: 30px; font-weight: 450;"><span>&copy;</span>Developed by Akash </p>
+</center>
+  
+<script src="js/script.js"></script>
+<script src="js/Vanila-tilt.js"></script>
+
+<script>
+  VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+    glare: true,
+    "max-glare": 1
+	});
+
+  VanillaTilt.init(document.querySelectorAll(".badge"), {
+		max: 25,
+		speed: 400,
+    glare: false,
+	});
+</script>
+
+</body>
+</html>
