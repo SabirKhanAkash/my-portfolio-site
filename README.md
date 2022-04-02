@@ -4,4 +4,4 @@ This is my personal portfolio site. You are cordially welcomed to pay a visit in
 # Site Link: https://akash-codes.vercel.app/
 # Mirror Link: https://akash-codes.netlify.app/
 
-I have used HTML, CSS, JavaScript, Vanila-tilt.js, Particles.js, Bootstrap to build the site. THANK YOU.
+I have used `HTML`, `CSS`, `JavaScript`, `Vanila-tilt.js`, `Particles.js`, `Bootstrap` to build the site. THANK YOU.
