@@ -13,8 +13,8 @@
     --greenish: #48cc1440;
     --white-alpha-40: rgba(255, 255, 255, 0.40);
     --white-alpha-25: rgba(255, 255, 255, 0.25);
-    --backdrop-filter-blur: blur(10px);
-    -moz-transform: scale(1.5);
+    --backdrop-filter-blur: blur(2px);
+    /* -moz-transform: scale(1.5); */
 }
 
 *{
@@ -889,6 +889,7 @@ button{
 }
 
 .contact-form .input-control::placeholder{
+    top: 0%;
     color: var(--blue-dark);
     opacity: 0.8;
     font-weight: 300;
