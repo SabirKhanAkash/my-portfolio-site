@@ -98,3 +98,20 @@ function loop () {
 
 loop()
   
+
+function message(){
+  const success = document.getElementById('success');
+
+
+  setTimeout(() => {
+      Name.value = '';
+      email.value = '';
+      msg.value = '';
+  }, 2000);
+
+  success.style.display = 'block';
+  setTimeout(() => {
+      success.style.display = 'none';
+  }, 4000);
+
+}
