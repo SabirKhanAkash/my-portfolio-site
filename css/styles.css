@@ -1041,6 +1041,26 @@ button{
     background-color: var(--main-color);
 }
 
+/* .contact-info-item .social-links a img{
+    display: inline-flex;
+    align-items: center;
+    height: 50px;
+    font-size: 30px;
+    width: 50px;
+    justify-content: center;
+    background-color: var(--white-alpha-25);
+    border:1px solid var(--white-alpha-40);
+    color: var(--main-color);
+    border-radius: 50%;
+    margin:6px 4px 0 0;
+    transition: all 0.3s ease;
+} */
+
+.contact-info-item .social-links a img:hover{
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
 .contact-section.fade-out{
     animation: fadeOut 0.5s ease-in-out forwards;
 }
