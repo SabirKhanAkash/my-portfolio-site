@@ -681,6 +681,11 @@ button {
 }
 
 .about-text {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.about-description {
   width: 60%;
   padding: 0 15px;
 }
@@ -704,6 +709,10 @@ button {
 }
 
 .about-text p {
+  font-size: 23px;
+}
+
+.about-description p {
   font-size: 23px;
 }
 
